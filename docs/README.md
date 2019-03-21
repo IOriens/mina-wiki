@@ -1,47 +1,36 @@
 ---
 home: true
 # heroImage: /hero.png
-actionText: Get Started →
-actionLink: /guide/
+# actionText: Get Started →
+# actionLink: /guide/
 footer: MIT Licensed | Copyright © 2019-present Junjie Ding
 ---
 
-<div style="text-align: center">
-  <Bit/>
-</div>
 
 <div class="features">
   <div class="feature">
-    <h2>Simplicity First</h2>
-    <p>Minimal setup with markdown-centered project structure helps you focus on writing.</p>
+    <h2><a href="/eco/framework">框架对比</a> </h2>
+    <p>小程序框架全面对比</p>
   </div>
   <div class="feature">
-    <h2>Vue-Powered</h2>
-    <p>Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.</p>
+    <h2><a href="/eco/vender">服务提供商</a></h2>
+    <p>小程序服务提供商列表</p>
   </div>
   <div class="feature">
-    <h2>Performant</h2>
-    <p>VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.</p>
+    <h2><a href="/appid">小程序路径大全</a> </h2>
+    <p>收录最全的小程序 APPID 和 路径</p>
   </div>
+    <div class="feature">
+    <h2><a href="/appid">小程序路径大全</a> </h2>
+    <p>收录最全的小程序 APPID 和 路径</p>
+  </div>
+   <div class="feature">
+    <h2><a href="/doc/api">小程序 API 列表</a></h2>
+    <p>各平台小程序 API 列表</p>
+  </div>
+   <div class="feature">
+    <h2><a href="/doc/game">小游戏 API 列表</a></h2>
+    <p>各平台小游戏 API 列表</p>
+  </div>
+
 </div>
-
-### As Easy as 1, 2, 3
-
-``` bash
-# install
-yarn global add vuepress@next
-# OR npm install -g vuepress@next
-
-# create a markdown file
-echo '# Hello VuePress' > README.md
-
-# start writing
-vuepress dev
-
-# build to static files
-vuepress build
-```
-
-::: warning COMPATIBILITY NOTE
-VuePress requires Node.js >= 8.
-:::

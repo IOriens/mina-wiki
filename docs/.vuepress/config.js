@@ -14,6 +14,13 @@ module.exports = {
     editLinkText: "帮助我们改善此页面！",
     nav: [
       {
+        text: "文档",
+        items: [
+          { text: "小程序 API", link: "/doc/api" },
+          { text: "小游戏 API", link: "/doc/game" },
+        ]
+      },
+      {
         text: "生态",
         items: [
           { text: "框架", link: "/eco/framework" },
