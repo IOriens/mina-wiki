@@ -18,6 +18,7 @@ module.exports = {
         items: [
           { text: "小程序 API", link: "/doc/api" },
           { text: "小游戏 API", link: "/doc/game" },
+          { text: "过审指南", link: "/doc/review" },
         ]
       },
       {
