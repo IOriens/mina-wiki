@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "build:coding": "cross-env SITEHOST='https://cn.mina.wiki' vuepress build docs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vuepress": "^1.0.0-alpha.44"
+    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.44",
+    "cross-env": "^5.2.0",
+    "vuepress": "^1.0.0-alpha.44",
+    "vuepress-plugin-sitemap": "^2.1.1"
   }
 }

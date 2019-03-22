@@ -1,4 +1,5 @@
 module.exports = {
+  head: [["meta", { name: "sogou_site_verification", content: "JY62pbFf8M" }]],
   locales: {
     "/": {
       lang: "zh-CN",
@@ -18,14 +19,14 @@ module.exports = {
         items: [
           { text: "小程序 API", link: "/doc/api" },
           { text: "小游戏 API", link: "/doc/game" },
-          { text: "过审指南", link: "/doc/review" },
+          { text: "过审指南", link: "/doc/review" }
         ]
       },
       {
         text: "生态",
         items: [
           { text: "框架", link: "/eco/framework" },
-          { text: "服务提供商", link: "/eco/vender" },
+          { text: "服务提供商", link: "/eco/vender" }
         ]
       },
       { text: "小程序示例", link: "/case/" },
@@ -38,6 +39,14 @@ module.exports = {
         message: "网站内容有更新哟！",
         buttonText: "好的"
       }
+    }
+  },
+  plugins: {
+    "@vuepress/google-analytics": {
+      ga: "UA-136795533-1"
+    },
+    sitemap: {
+      hostname: process.env.SITEHOST || "https://mina.wiki"
     }
   }
 };
