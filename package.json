@@ -6,14 +6,17 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "build:coding": "cross-env SITEHOST='https://cn.mina.wiki' vuepress build docs"
+    "build:coding": "cross-env SITEHOST='https://cn.mina.wiki' vuepress build docs",
+    "deploy": "bash deploy.sh && bash deploy.coding.sh"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.0-alpha.44",
+    "@vuepress/plugin-pwa": "^1.0.0-alpha.44",
     "cross-env": "^5.2.0",
+    "moment": "^2.24.0",
     "vuepress": "^1.0.0-alpha.44",
     "vuepress-plugin-sitemap": "^2.1.1"
   }

@@ -1,10 +1,11 @@
 module.exports = {
-  head: [["meta", { name: "sogou_site_verification", content: "JY62pbFf8M" }]],
+  head: [["meta", { name: "sogou_site_verification", content: "4vLjSpDsX2" }]],
   locales: {
     "/": {
       lang: "zh-CN",
       title: "Mina.wiki - 小程序百科",
-      description: "小程序百科，Wikipedia for Miniapp Developers"
+      description:
+        "小程序百科：助力小程序开发者变现，提高开发者生产效率，Wikipedia for Miniapp Developers"
     }
   },
   themeConfig: {
@@ -12,7 +13,7 @@ module.exports = {
     repoLabel: "源码",
     docsDir: "docs",
     editLinks: true,
-    editLinkText: "帮助我们改善此页面！",
+    editLinkText: "在 GitHub 上编辑此页",
     nav: [
       {
         text: "文档",
@@ -32,7 +33,7 @@ module.exports = {
       { text: "小程序示例", link: "/case/" },
       { text: "小程序路径大全", link: "/appid/" }
     ],
-    lastUpdated: "更新于",
+    lastUpdated: "上次更新",
     serviceWorker: {
       updatePopup: true,
       updatePopup: {
@@ -47,6 +48,17 @@ module.exports = {
     },
     sitemap: {
       hostname: process.env.SITEHOST || "https://mina.wiki"
+    },
+    "@vuepress/pwa": {
+      serviceWorker: true,
+      updatePopup: true
+    },
+    "@vuepress/last-updated": {
+      transformer: (timestamp, lang) => {
+        const moment = require("moment");
+        moment.locale(lang);
+        return moment(timestamp).format('YYYY-MM-DD HH:mm:ss');;
+      }
     }
   }
 };

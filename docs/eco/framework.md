@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 ## 小程序框架对比
 
 |            | chameleon                                                                                         | mpvue                                                                                                     | Taro                                                                                           | uni-app                                                                                             | WePY                                                                                                                     | Hera                                                                                                                    |
