@@ -18,6 +18,7 @@
     "cross-env": "^5.2.0",
     "moment": "^2.24.0",
     "vuepress": "^1.0.0-alpha.44",
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-sitemap": "^2.1.1"
   }
 }
