@@ -1,18 +1,18 @@
 ---
 sidebar: auto
 ---
+ 
+  
+# 小游戏 API 
 
+  
+## 基础 
 
-# 小游戏 API
+  
+### 系统 
 
-
-## 基础
-
-
-### 系统
-
-
-#### 系统信息
+  
+#### 系统信息 
 
   <table>
     <thead>
@@ -32,8 +32,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 更新
+  
+### 更新 
 
   <table>
     <thead>
@@ -49,8 +49,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-#### UpdateManager
+  
+#### UpdateManager 
 
   <table>
     <thead>
@@ -78,11 +78,11 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
+  
+### 小程序 
 
-### 小程序
-
-
-#### 生命周期
+  
+#### 生命周期 
 
   <table>
     <thead>
@@ -118,8 +118,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-#### 应用级事件
+  
+#### 应用级事件 
 
   <table>
     <thead>
@@ -155,8 +155,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-#### 触摸事件
+  
+#### 触摸事件 
 
   <table>
     <thead>
@@ -204,8 +204,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 性能
+  
+### 性能 
 
   <table>
     <thead>
@@ -225,8 +225,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-#### Performance
+  
+#### Performance 
 
   <table>
     <thead>
@@ -242,8 +242,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 分包加载
+  
+### 分包加载 
 
   <table>
     <thead>
@@ -259,8 +259,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-#### LoadSubpackageTask
+  
+#### LoadSubpackageTask 
 
   <table>
     <thead>
@@ -276,8 +276,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 调试
+  
+### 调试 
 
   <table>
     <thead>
@@ -297,8 +297,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-#### LogManager
+  
+#### LogManager 
 
   <table>
     <thead>
@@ -326,11 +326,11 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
+  
+## 渲染 
 
-## 渲染
-
-
-### 画布
+  
+### 画布 
 
   <table>
     <thead>
@@ -354,8 +354,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-#### Canvas
+  
+#### Canvas 
 
   <table>
     <thead>
@@ -383,8 +383,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 帧率
+  
+### 帧率 
 
   <table>
     <thead>
@@ -408,8 +408,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 字体
+  
+### 字体 
 
   <table>
     <thead>
@@ -429,8 +429,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 图片
+  
+### 图片 
 
   <table>
     <thead>
@@ -450,8 +450,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-## 广告
+  
+## 广告 
 
   <table>
     <thead>
@@ -471,8 +471,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### BannerAd
+  
+### BannerAd 
 
   <table>
     <thead>
@@ -520,8 +520,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### RewardedVideoAd
+  
+### RewardedVideoAd 
 
   <table>
     <thead>
@@ -565,11 +565,11 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
+  
+## 界面 
 
-## 界面
-
-
-### 交互
+  
+### 交互 
 
   <table>
     <thead>
@@ -605,8 +605,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 键盘
+  
+### 键盘 
 
   <table>
     <thead>
@@ -654,8 +654,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 菜单
+  
+### 菜单 
 
   <table>
     <thead>
@@ -675,8 +675,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 状态栏
+  
+### 状态栏 
 
   <table>
     <thead>
@@ -692,8 +692,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 窗口
+  
+### 窗口 
 
   <table>
     <thead>
@@ -713,11 +713,11 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
+  
+## 网络 
 
-## 网络
-
-
-### 发起请求
+  
+### 发起请求 
 
   <table>
     <thead>
@@ -733,8 +733,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-#### RequestTask
+  
+#### RequestTask 
 
   <table>
     <thead>
@@ -758,8 +758,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 下载
+  
+### 下载 
 
   <table>
     <thead>
@@ -775,8 +775,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-#### DownloadTask
+  
+#### DownloadTask 
 
   <table>
     <thead>
@@ -808,8 +808,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 上传
+  
+### 上传 
 
   <table>
     <thead>
@@ -825,8 +825,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-#### UploadTask
+  
+#### UploadTask 
 
   <table>
     <thead>
@@ -858,8 +858,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### WebSocket
+  
+### WebSocket 
 
   <table>
     <thead>
@@ -899,8 +899,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-#### SocketTask
+  
+#### SocketTask 
 
   <table>
     <thead>
@@ -936,8 +936,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-## 转发
+  
+## 转发 
 
   <table>
     <thead>
@@ -977,8 +977,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-## 虚拟支付
+  
+## 虚拟支付 
 
   <table>
     <thead>
@@ -994,8 +994,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-## 数据缓存
+  
+## 数据缓存 
 
   <table>
     <thead>
@@ -1047,11 +1047,11 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
+  
+## 媒体 
 
-## 媒体
-
-
-### 音频
+  
+### 音频 
 
   <table>
     <thead>
@@ -1075,8 +1075,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-#### InnerAudioContext
+  
+#### InnerAudioContext 
 
   <table>
     <thead>
@@ -1188,8 +1188,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 图片
+  
+### 图片 
 
   <table>
     <thead>
@@ -1213,8 +1213,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 录音
+  
+### 录音 
 
   <table>
     <thead>
@@ -1230,8 +1230,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-#### RecorderManager
+  
+#### RecorderManager 
 
   <table>
     <thead>
@@ -1291,8 +1291,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 视频
+  
+### 视频 
 
   <table>
     <thead>
@@ -1308,8 +1308,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-#### Video
+  
+#### Video 
 
   <table>
     <thead>
@@ -1397,8 +1397,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-## 位置
+  
+## 位置 
 
   <table>
     <thead>
@@ -1414,8 +1414,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-## 文件
+  
+## 文件 
 
   <table>
     <thead>
@@ -1431,8 +1431,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### FileSystemManager
+  
+### FileSystemManager 
 
   <table>
     <thead>
@@ -1556,8 +1556,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### Stats
+  
+### Stats 
 
   <table>
     <thead>
@@ -1577,11 +1577,11 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
+  
+## 开放接口 
 
-## 开放接口
-
-
-### 小程序跳转
+  
+### 小程序跳转 
 
   <table>
     <thead>
@@ -1597,8 +1597,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 用户信息
+  
+### 用户信息 
 
   <table>
     <thead>
@@ -1618,11 +1618,11 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
+  
+#### UserInfo 
 
-#### UserInfo
-
-
-#### UserInfoButton
+  
+#### UserInfoButton 
 
   <table>
     <thead>
@@ -1654,8 +1654,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 登录
+  
+### 登录 
 
   <table>
     <thead>
@@ -1675,8 +1675,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 授权
+  
+### 授权 
 
   <table>
     <thead>
@@ -1692,8 +1692,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 开放数据
+  
+### 开放数据 
 
   <table>
     <thead>
@@ -1741,8 +1741,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 开放数据域
+  
+### 开放数据域 
 
   <table>
     <thead>
@@ -1762,8 +1762,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-#### OpenDataContext
+  
+#### OpenDataContext 
 
   <table>
     <thead>
@@ -1779,8 +1779,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 防沉迷
+  
+### 防沉迷 
 
   <table>
     <thead>
@@ -1796,8 +1796,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 意见反馈
+  
+### 意见反馈 
 
   <table>
     <thead>
@@ -1813,8 +1813,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-#### FeedbackButton
+  
+#### FeedbackButton 
 
   <table>
     <thead>
@@ -1846,8 +1846,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 设置
+  
+### 设置 
 
   <table>
     <thead>
@@ -1875,8 +1875,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-#### OpenSettingButton
+  
+#### OpenSettingButton 
 
   <table>
     <thead>
@@ -1908,8 +1908,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 游戏圈
+  
+### 游戏圈 
 
   <table>
     <thead>
@@ -1925,8 +1925,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-#### GameClubButton
+  
+#### GameClubButton 
 
   <table>
     <thead>
@@ -1958,8 +1958,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 客服消息
+  
+### 客服消息 
 
   <table>
     <thead>
@@ -1975,8 +1975,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 微信运动
+  
+### 微信运动 
 
   <table>
     <thead>
@@ -1992,8 +1992,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 卡券
+  
+### 卡券 
 
   <table>
     <thead>
@@ -2013,11 +2013,11 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
+  
+## 设备 
 
-## 设备
-
-
-### 电量
+  
+### 电量 
 
   <table>
     <thead>
@@ -2037,8 +2037,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 剪贴板
+  
+### 剪贴板 
 
   <table>
     <thead>
@@ -2058,8 +2058,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 网络
+  
+### 网络 
 
   <table>
     <thead>
@@ -2079,8 +2079,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 屏幕
+  
+### 屏幕 
 
   <table>
     <thead>
@@ -2104,8 +2104,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 转屏
+  
+### 转屏 
 
   <table>
     <thead>
@@ -2125,8 +2125,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 加速计
+  
+### 加速计 
 
   <table>
     <thead>
@@ -2150,8 +2150,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 罗盘
+  
+### 罗盘 
 
   <table>
     <thead>
@@ -2175,8 +2175,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 设备方向
+  
+### 设备方向 
 
   <table>
     <thead>
@@ -2200,8 +2200,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 陀螺仪
+  
+### 陀螺仪 
 
   <table>
     <thead>
@@ -2225,8 +2225,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 性能
+  
+### 性能 
 
   <table>
     <thead>
@@ -2242,8 +2242,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### 振动
+  
+### 振动 
 
   <table>
     <thead>
@@ -2263,8 +2263,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-## Worker
+  
+## Worker 
 
   <table>
     <thead>
@@ -2280,8 +2280,8 @@ sidebar: auto
       </tr>
     </tbody>
   </table>
-
-### Worker
+  
+### Worker 
 
   <table>
     <thead>

@@ -1,9 +1,7 @@
 ---
 home: true
-# heroImage: /hero.png
-# actionText: Get Started →
-# actionLink: /guide/
-footer: MIT Licensed | Copyright © 2019-present Junjie Ding
+heroImage: /logo/logo_transparent.png
+footer: MIT Licensed | Copyright © 2019-present Junjie.xyz
 ---
 
 <div class="features">
@@ -21,8 +19,8 @@ footer: MIT Licensed | Copyright © 2019-present Junjie Ding
   </div>
 
   <div class="feature">
-    <h2><a href="/appid">小程序路径大全</a> </h2>
-    <p>收录最全的小程序 APPID 和 路径</p>
+    <h2><a href="/case">小程序源码大全</a> </h2>
+    <p>小程序开源代码搜集</p>
   </div>
    <div class="feature">
     <h2><a href="/doc/api">小程序 API 列表</a></h2>
