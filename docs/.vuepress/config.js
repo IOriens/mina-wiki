@@ -7,8 +7,7 @@ module.exports = {
     '/': {
       lang: 'zh-CN',
       title: 'Mina.wiki - 小程序百科',
-      description:
-        '助力小程序开发者变现，提高开发生产效率'
+      description: '助力小程序开发者变现，提高开发生产效率'
     }
   },
   themeConfig: {
@@ -38,28 +37,43 @@ module.exports = {
     ],
     lastUpdated: '上次更新'
   },
-  plugins: {
-    '@vuepress/google-analytics': {
-      ga: 'UA-136795533-1'
-    },
-    sitemap: {
-      hostname: process.env.SITEHOST || 'https://mina.wiki'
-    },
-    '@vuepress/pwa': {
-      serviceWorker: true,
-      updatePopup: true,
-      updatePopup: {
-        message: '网站内容有更新哟！',
-        buttonText: '好的'
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+
+      {
+        ga: 'UA-136795533-1'
       }
-    },
-    '@vuepress/last-updated': {
-      transformer: (timestamp, lang) => {
-        const moment = require('moment')
-        moment.locale(lang)
-        return moment(timestamp).format('YYYY-MM-DD HH:mm:ss')
+    ],
+    [
+      'sitemap',
+      {
+        hostname: process.env.SITEHOST || 'https://mina.wiki'
       }
-    },
-    'vuepress-plugin-baidu-autopush': {}
-  }
+    ],
+    [
+      '@vuepress/pwa',
+      {
+        serviceWorker: true,
+        updatePopup: true,
+        updatePopup: {
+          message: '网站内容有更新哟！',
+          buttonText: '刷新'
+        }
+      }
+    ],
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          const moment = require('moment')
+          moment.locale(lang)
+          return moment(timestamp).format('YYYY-MM-DD HH:mm:ss')
+        }
+      }
+    ],
+    '@vuepress/back-to-top',
+    'vuepress-plugin-baidu-autopush',
+    '@vuepress/medium-zoom'
+  ]
 }
