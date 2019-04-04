@@ -28,8 +28,9 @@ module.exports = {
       {
         text: '生态',
         items: [
-          { text: '框架', link: '/eco/framework' },
-          { text: '服务提供商', link: '/eco/vender' }
+          { text: '服务提供商', link: '/eco/vender' },
+          { text: '前端框架对比', link: '/eco/framework' },
+          { text: 'UI 框架对比', link: '/eco/ui' },
         ]
       },
       { text: '小程序示例', link: '/case/' },
