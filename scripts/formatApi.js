@@ -2,9 +2,7 @@ const fs = require('fs')
 const path = require('path')
 
 const cheerio = require('cheerio')
-
-let apiSource = fs.readFileSync(path.resolve(__dirname, './sources/api.html'))
-let gameSource = fs.readFileSync(path.resolve(__dirname, './sources/game.html'))
+const crawl = require('./utils/crawler')
 
 const formatWXArticle = (source, baseURL, title) => {
   const $ = cheerio.load(source.toString(), {
@@ -15,7 +13,7 @@ const formatWXArticle = (source, baseURL, title) => {
   })
 
   $('h1').map(function (idx, ele) {
-    if($(this).text() == 'API') {
+    if ($(this).text() == 'API') {
       $(this).text(title)
     }
   })
@@ -28,26 +26,48 @@ const formatWXArticle = (source, baseURL, title) => {
   $('a').map(function (idx, ele) {
     let href = $(this).attr('href')
     $(this).attr('href', baseURL + href)
-    // let level = parseInt(ele.name.slice(1))
-    // $(this).replaceWith(`\n${''.padEnd(level, '#')} ${$(this).text()} \n`)
   })
 
   return $('.markdown-section').html()
-
 }
 
-let header =  `---
+;(async function main () {
+  let queue = [
+    {
+      url: 'https://developers.weixin.qq.com/miniprogram/dev/api/',
+      dist: path.resolve(__dirname, '../docs/doc/api.md'),
+      title: '小程序 API',
+      header: `---
 sidebar: auto
----
-`
+---`
+    },
+    {
+      url: 'https://developers.weixin.qq.com/minigame/dev/api/',
+      dist: path.resolve(__dirname, '../docs/doc/game.md'),
+      title: '小游戏 API',
+      header: `---
+sidebar: auto
+---`
+    }
+  ]
 
-fs.writeFileSync(
-  path.resolve(__dirname, './transformDist/api.md'),
-  `${header} ${formatWXArticle(apiSource, 'https://developers.weixin.qq.com/miniprogram/dev/api/', '小程序 API')}`
-)
+  for (let config of queue) {
+    await crawl({
+      url: config.url,
+      callback: async page => {
+        let sec = await page.evaluate(config => {
+          return document.querySelector('.markdown-section').outerHTML
+        }, config)
 
-fs.writeFileSync(
-  path.resolve(__dirname, './transformDist/game.md'),
-  `${header} ${formatWXArticle(gameSource, 'https://developers.weixin.qq.com/minigame/dev/api/', '小游戏 API')}`
-)
-
+        fs.writeFileSync(
+          config.dist,
+          `${config.header} ${formatWXArticle(
+            sec,
+            config.url,
+            config.title
+          )}`
+        )
+      }
+    })
+  }
+})()
