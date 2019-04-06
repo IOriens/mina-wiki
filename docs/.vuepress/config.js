@@ -30,7 +30,7 @@ module.exports = {
         items: [
           { text: '服务提供商', link: '/eco/vender' },
           { text: '前端框架对比', link: '/eco/framework' },
-          { text: 'UI 框架对比', link: '/eco/ui' },
+          { text: 'UI 框架对比', link: '/eco/ui' }
         ]
       },
       { text: '小程序示例', link: '/case/' },
@@ -75,6 +75,23 @@ module.exports = {
     ],
     '@vuepress/back-to-top',
     'vuepress-plugin-baidu-autopush',
-    '@vuepress/medium-zoom'
+    '@vuepress/medium-zoom',
+    // [
+    //   'autometa',
+    //   {
+    //     site: {
+    //       name: 'Junjie.xyz',
+    //       twitter: 'I_Oriens'
+    //     },
+    //     canonical_base: 'https://mina.wiki'
+    //   }
+    // ],
+    [
+      'vuepress-plugin-canonical',
+      {
+        baseURL: 'https://mina.wiki',
+        stripExtension: false
+      }
+    ]
   ]
 }

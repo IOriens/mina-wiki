@@ -1,5 +1,10 @@
 ---
 sidebar: auto
+meta:
+  - name: description
+    content: 小程序 appid 大全，小程序路径大全，公众号绑定，小程序绑定
+  - name: keywords
+    content: 小程序,appid,路径,公众号,关联,运营,热门微博,微店,微信相册
 ---
 
 
