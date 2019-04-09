@@ -3,6 +3,7 @@ const path = require('path')
 const { downloadAndWriteFile } = require('./utils/downloadFile')
 
 ;(async function main () {
+  console.log('update awsome apps')
   let tmpFilePath = path.resolve(__dirname, './transformDist/case.md')
   const content = await downloadAndWriteFile(
     'https://raw.githubusercontent.com/justjavac/awesome-wechat-weapp/master/README.md',
@@ -31,6 +32,7 @@ const { downloadAndWriteFile } = require('./utils/downloadFile')
       /(小程序源码搜集)([\s\S]*)(## 资料来源)/,
       `$1\n\n${formatedContent}\n\n$3`
     )
+
 
   fs.writeFileSync(mdFilePath, finalFileContent)
 })()

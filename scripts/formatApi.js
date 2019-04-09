@@ -52,6 +52,8 @@ sidebar: auto
   ]
 
   for (let config of queue) {
+    console.log(config.url)
+
     await crawl({
       url: config.url,
       callback: async page => {

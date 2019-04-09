@@ -38,4 +38,10 @@ pages/pgcvideo/pgcvideo?epid=259674
 参数:
 - `epid`: 必选 - 番剧的 epid
 
+## 其它小程序
 
+- 公众平台助手： wx474a5c3c033d43e9
+- 小程序数据助手：wx95e493619d0ff929
+- 小程序助手: wxcff7381e631cf54e
+- 色卡生成器 取色器：wxd0478c2a807e23c9
+- 正能量格言：wx757ceb5b6125ccbb
