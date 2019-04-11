@@ -23,7 +23,8 @@
     "vuepress-plugin-autometa": "^0.1.10",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-canonical": "^1.0.0",
-    "vuepress-plugin-sitemap": "^2.1.2"
+    "vuepress-plugin-sitemap": "^2.1.2",
+    "xml2js": "^0.4.19"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",

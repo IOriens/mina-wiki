@@ -27,6 +27,12 @@ pages/profile/profile?nickname=IOriens&amp;objectUid=5040331056
 - `nickname`: 必选 - 用户昵称，博主主页打开控制台执行 `encodeURIComponent($CONFIG.onick)` 获取，注意必须 encode
 - `objectUid`: 非必选 - 用户 id, 博主主页打开控制台执行 `$CONFIG.oid` 获取
 
+### 主页
+
+```
+pages/feed/feed
+```
+
 ## Bilibili
 
 > appid: wx7564fd5313d24844
@@ -52,6 +58,7 @@ pages/pgcvideo/pgcvideo?epid=259674
 - 小年糕：wxd7911e4c177690e4
 - 猫眼电影：wx87730701f3d95cc4
 - 豆瓣评分：wx2f9b06c1de1ccfca
+- 时间规划器：wx6420a173c6078912
 - 色卡生成器 取色器：wxd0478c2a807e23c9
 - 正能量格言：wx757ceb5b6125ccbb
 
@@ -63,3 +70,6 @@ pages/pgcvideo/pgcvideo?epid=259674
 - 成语小秀才：wx504e2b5e77713844
 - 腾讯欢乐麻将：wx375c80123d32f83f
 - 我要猫咪：wx29dc47a5840221dd
+- 绝地求生：刺激战场：wx81311543661d2713
+- 海盗来了：wxec8f800476c3964a
+- 成语中状元：wx776f8e75a5858a0a
