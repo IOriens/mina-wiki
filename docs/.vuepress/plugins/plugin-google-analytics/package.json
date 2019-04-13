@@ -1,0 +1,57 @@
+{
+  "_from": "@vuepress/plugin-google-analytics@next",
+  "_id": "@vuepress/plugin-google-analytics@1.0.0-alpha.44",
+  "_inBundle": false,
+  "_integrity": "sha1-X6Ttw0HP/GNIBMb3LbB2/Qv/w8A=",
+  "_location": "/@vuepress/plugin-google-analytics",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@vuepress/plugin-google-analytics@next",
+    "name": "@vuepress/plugin-google-analytics",
+    "escapedName": "@vuepress%2fplugin-google-analytics",
+    "scope": "@vuepress",
+    "rawSpec": "next",
+    "saveSpec": null,
+    "fetchSpec": "next"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/@vuepress/plugin-google-analytics/download/@vuepress/plugin-google-analytics-1.0.0-alpha.44.tgz",
+  "_shasum": "5fa4edc341cffc634804c6f72db076fd0bffc3c0",
+  "_spec": "@vuepress/plugin-google-analytics@next",
+  "_where": "/Users/IOriens/own/front/mina.wiki",
+  "author": {
+    "name": "ULIVZ",
+    "email": "chl814@foxmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/vuejs/vuepress/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "google-analytics plugin for vuepress",
+  "gitHead": "e727f7e2a22855be9154ec5ed62bcc8e9612e366",
+  "homepage": "https://github.com/vuejs/vuepress/packages/@vuepress/plugin-google-analytics#readme",
+  "keywords": [
+    "documentation",
+    "vue",
+    "vuepress",
+    "generator"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@vuepress/plugin-google-analytics",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuejs/vuepress.git",
+    "directory": "packages/@vuepress/plugin-google-analytics"
+  },
+  "version": "1.0.0-alpha.44"
+}

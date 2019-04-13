@@ -40,7 +40,7 @@ module.exports = {
   },
   plugins: [
     [
-      '@vuepress/google-analytics',
+      require('./plugins/plugin-google-analytics'),
 
       {
         ga: 'UA-136795533-1'
@@ -75,6 +75,7 @@ module.exports = {
     ],
     '@vuepress/back-to-top',
     'vuepress-plugin-baidu-autopush',
+    require('./plugins/vuepress-plugin-360-autopush'),
     '@vuepress/medium-zoom',
     // [
     //   'autometa',

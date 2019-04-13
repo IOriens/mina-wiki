@@ -2,9 +2,9 @@
 sidebar: auto
 meta:
   - name: description
-    content: 小程序 appid 大全，小游戏 appid 大全，小程序路径大全，公众号绑定，小程序绑定，小程序引流
+    content: 小程序 appid 大全，小游戏 appid 大全，小程序路径大全，公众号绑定，小程序绑定，小程序引流，如何查看小程序的APPID？
   - name: keywords
-    content: 小程序,小游戏,appid,路径,公众号,关联,运营,热门微博,微店,微信相册,小程序引流
+    content: 小程序,小游戏,appid,路径,公众号,关联,运营,热门微博,微店,微信相册,小程序引流,如何查看
 ---
 
 

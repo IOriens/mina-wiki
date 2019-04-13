@@ -2,9 +2,9 @@
 sidebar: auto
 meta:
   - name: description
-    content: 小程序、小游戏源码搜集
+    content: 小程序、小游戏源码搜集，小程序、小游戏模板
   - name: keywords
-    content: 小程序,小游戏,源码,小程序商城,模仿,开源,音乐播放器,圣诞帽
+    content: 小程序,小游戏,源码,小程序商城,模仿,开源,音乐播放器,圣诞帽,模板,github,投票,抽奖
 ---
 
 

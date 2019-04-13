@@ -3,9 +3,9 @@ sidebar: auto
 pageClass: large-table-page
 meta:
   - name: description
-    content: 最全的小程序框架对比，优秀的微信小程序UI组件库。
+    content: 最全的小程序前端框架对比，优秀的微信小程序前端组件化框架。
   - name: keywords
-    content: 小程序,框架,Taro,UI,小程序转换,H5,原生应用,对比,TypeScript
+    content: 小程序,框架,Taro,UI,小程序转换,H5,原生应用,对比,TypeScript,前端框架,对比,UI框架
 ---
 
 ## 小程序前端框架对比

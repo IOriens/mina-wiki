@@ -27,7 +27,8 @@
     "xml2js": "^0.4.19"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
+    "autotrack": "^2.4.1",
+    "cheerio": "^1.0.0-rc.3",
     "htmlparser2": "^3.10.1",
     "puppeteer": "^1.14.0",
     "request-promise": "^4.2.4"

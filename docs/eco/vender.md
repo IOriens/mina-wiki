@@ -4,7 +4,7 @@ meta:
   - name: description
     content: 小程序服务提供商搜集，帮助您快速上线自己的小程序。
   - name: keywords
-    content: 小程序,服务,客服,开店,微店,小店,引导关注
+    content: 小程序,服务,客服,开店,微店,小店,引导关注,有赞
 ---
 
 # 小程序服务提供商
