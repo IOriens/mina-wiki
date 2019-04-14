@@ -46,8 +46,8 @@ Vant Weapp 是有赞移动端组件库 Vant 的小程序版本，两者基于相
 一套高质量的微信小程序 UI 组件库
 
 <div>
-  <img src="https://upload-images.jianshu.io/upload_images/3407939-d1cb49e851d1fccc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/550/format/webp" width=300>
-  <img src="https://raw.githubusercontent.com/TalkingData/iview-weapp/master/assets/code.jpg" width=200>
+  <img src="https://upload-images.jianshu.io/upload_images/3407939-d1cb49e851d1fccc.png" width=300>
+  <img src="https://ws1.sinaimg.cn/large/005v6Imcly1g218mxk1nhj30by0byq4v.jpg" width=200>
 </div>
 
 
