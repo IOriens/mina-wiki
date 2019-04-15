@@ -1,5 +1,27 @@
 /* global GA_ID, ga */
 
+function addUtmSource () {
+  try {
+    Array.from(document.querySelectorAll('a'))
+      .filter(
+        item =>
+          item.href &&
+          !item.href.includes('mina.wiki') &&
+          !item.href.includes('mina-wiki') &&
+          !item.href.includes('utm_source')
+      )
+      .map(item => {
+        if (item.href.includes('?')) {
+          item.href = item.href + `&utm_source=mina.wiki&utm_medium=referral`
+        } else {
+          item.href = item.href + `?utm_source=mina.wiki&utm_medium=referral`
+        }
+      })
+  } catch (e) {
+    console.error(e)
+  }
+}
+
 export default ({ router }) => {
   // Google analytics integration
   if (
@@ -37,8 +59,9 @@ export default ({ router }) => {
     ga('require', 'outboundLinkTracker')
     ga('require', 'urlChangeTracker')
     ga('require', 'pageVisibilityTracker')
-    ga('require', 'maxScrollTracker');
+    ga('require', 'maxScrollTracker')
 
+    addUtmSource()
 
     // Feature detects Navigation Timing API support.
     if (window.performance) {
@@ -49,5 +72,9 @@ export default ({ router }) => {
       // Sends the timing hit to Google Analytics.
       ga('send', 'timing', 'JS Dependencies', 'load', timeSincePageLoad)
     }
+
+    router.afterEach(function (to) {
+      addUtmSource()
+    })
   }
 }
