@@ -7,11 +7,6 @@ meta:
     content: 小程序,小游戏,appid,路径,公众号,关联,运营,热门微博,微店,微信相册,小程序引流,如何查看
 ---
 
-
-作用：扫一下下面这个小程序码，可以看到，主页底部的链接可以跳转至微博、微店小程序。
-
-<img src="https://ws1.sinaimg.cn/large/005v6Imcly1g1avtg1916j309k09k0uc.jpg" width="100">
-
 用法：见 [wx.navigateToMiniProgram](https://developers.weixin.qq.com/miniprogram/dev/api/wx.navigateToMiniProgram.html) 和 [navigator](https://developers.weixin.qq.com/miniprogram/dev/component/navigator.html?search-key=navigator)
 
 ## 微博

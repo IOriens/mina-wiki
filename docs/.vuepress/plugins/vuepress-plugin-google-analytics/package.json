@@ -44,7 +44,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "@vuepress/plugin-google-analytics",
+  "name": "vuepress-plugin-google-analytics",
   "publishConfig": {
     "access": "public"
   },

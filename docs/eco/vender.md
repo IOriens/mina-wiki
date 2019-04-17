@@ -44,7 +44,7 @@ meta:
 
 专注于为微信小程序提供专业的第三方统计平台，以安全、独立、公正的态度作为原则和公司最高信条，服务于微信小程序的开发、运营、市场、创始人等生态从业者。主营业务除了基础统计工具，还覆盖市场数据决策和大数据分析
 
-<img src="http://www.aldzs.com/_nuxt/img/common-flow.04fdaea.png" width="300" style="margin: 10px;">
+<img src="https://www.aldzs.com/_nuxt/img/common-flow.04fdaea.png" width="300" style="margin: 10px;">
 
 ### [知晓程序](https://minapp.com)
 

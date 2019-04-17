@@ -40,13 +40,6 @@ module.exports = {
   },
   plugins: [
     [
-      require('./plugins/plugin-google-analytics'),
-
-      {
-        ga: 'UA-136795533-1'
-      }
-    ],
-    [
       'sitemap',
       {
         hostname: process.env.SITEHOST || 'https://mina.wiki'
@@ -75,7 +68,7 @@ module.exports = {
     ],
     '@vuepress/back-to-top',
     'vuepress-plugin-baidu-autopush',
-    require('./plugins/vuepress-plugin-360-autopush'),
+    'vuepress-plugin-qihu-autopush',
     '@vuepress/medium-zoom',
     // [
     //   'autometa',
@@ -92,6 +85,12 @@ module.exports = {
       {
         baseURL: 'https://mina.wiki',
         stripExtension: false
+      }
+    ],
+    [
+      require('./plugins/vuepress-plugin-google-analytics'),
+      {
+        ga: 'UA-136795533-1'
       }
     ]
   ]

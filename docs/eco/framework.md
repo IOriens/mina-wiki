@@ -11,9 +11,9 @@ meta:
 ## 小程序前端框架对比
 
 > 先说结论：
-> - 当你有 Vue 代码时：优先使用 chameleon
-> - 当你有 React 代码时：优先使用 Taro
-> - 当你有小程序代码时：优先使用 Taro 将小程序转换成 Taro 代码
+> - 当你有 Vue 代码时：使用 chameleon
+> - 当你有 React 代码时：使用 Taro
+> - 当你有小程序代码时：使用 Taro 将小程序转换成 Taro 代码
 
 
 |            | chameleon                                                    | mpvue                                                        | Taro                                                         | uni-app                                                      | WePY                                                         | Hera                                                         |
@@ -69,7 +69,7 @@ npx vue-cli@2.9 init mpvue/mpvue-quickstart project
 
 ![taro 架构图](https://img30.360buyimg.com/uba/jfs/t22360/120/839096197/151922/229ceba4/5b1a6fcdNed7d4039.jpg)
 
-- [Taro原理总结](http://blog.poetries.top/2018/11/26/taro-theory)
+- [Taro原理总结](https://blog.poetries.top/2018/11/26/taro-theory)
 - [为何我们要用 React 来写小程序 - Taro 诞生记](https://aotu.io/notes/2018/06/25/the-birth-of-taro/index.html)
 
 ### uni-app
