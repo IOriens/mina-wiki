@@ -22,20 +22,13 @@ footer: MIT Licensed | Copyright © 2019-present Junjie.xyz
   </div>
 
   <div class="feature">
-    <h2><a href="/eco/framework">流行框架对比</a> </h2>
-    <p>小程序框架全面对比</p>
+    <h2><a href="/eco/framework">前端框架对比</a> </h2>
+    <p>小程序前端框架全面对比</p>
   </div>
 
-
-
-
-   <div class="feature">
-    <h2><a href="/doc/api">小程序 API 列表</a></h2>
-    <p>各平台小程序 API 列表</p>
-  </div>
-   <div class="feature">
-    <h2><a href="/doc/game">小游戏 API 列表</a></h2>
-    <p>各平台小游戏 API 列表</p>
+  <div class="feature">
+    <h2><a href="/eco/ui">UI 框架对比</a> </h2>
+    <p>小程序 UI 框架全面对比</p>
   </div>
 
 </div>

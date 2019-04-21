@@ -18,10 +18,12 @@ module.exports = {
     editLinkText: '在 GitHub 上编辑此页',
     nav: [
       {
-        text: '文档',
+        text: '指南',
         items: [
-          { text: '小程序 API', link: '/doc/api' },
-          { text: '小游戏 API', link: '/doc/game' },
+          // { text: '小程序 API', link: '/doc/api' },
+          // { text: '小游戏 API', link: '/doc/game' },
+          { text: 'SEO 指南', link: '/doc/seo' },
+
           { text: '过审指南', link: '/doc/review' }
         ]
       },
