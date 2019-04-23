@@ -14,11 +14,13 @@ meta:
 > appid: wx9074de28009e1111
 
 ### 个人用户页路径
+
 ```
 pages/profile/profile?nickname=IOriens&amp;objectUid=5040331056
 ```
 
 参数:
+
 - `nickname`: 必选 - 用户昵称，博主主页打开控制台执行 `encodeURIComponent($CONFIG.onick)` 获取，注意必须 encode
 - `objectUid`: 非必选 - 用户 id, 博主主页打开控制台执行 `$CONFIG.oid` 获取
 
@@ -33,10 +35,13 @@ pages/feed/feed
 > appid: wx7564fd5313d24844
 
 ### 番剧播放页路径
+
 ```
 pages/pgcvideo/pgcvideo?epid=259674
 ```
+
 参数:
+
 - `epid`: 必选 - 番剧的 epid
 
 ## 其它小程序 appid
@@ -47,8 +52,9 @@ pages/pgcvideo/pgcvideo?epid=259674
 - 微信指数: wxc026e7662ec26a3a
 - 知乎热榜：wxeb39b10e39bf6b54
 - 享物说：wxa344448166586158
-- it之家：wxc9091fcc9a6e550c
-- 即刻App: wx94ba6ef5dabfd427
+- it 之家：wxc9091fcc9a6e550c
+- 群空间助手：wx2a6ae614c532dbed
+- 即刻 App: wx94ba6ef5dabfd427
 - 拼多多：wx32540bd863b27570
 - 小年糕：wxd7911e4c177690e4
 - 猫眼电影：wx87730701f3d95cc4
