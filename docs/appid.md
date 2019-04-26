@@ -7,7 +7,15 @@ meta:
     content: 小程序,小游戏,appid,路径,公众号,关联,运营,热门微博,微店,微信相册,小程序引流,如何查看
 ---
 
-用法：见 [wx.navigateToMiniProgram](https://developers.weixin.qq.com/miniprogram/dev/api/wx.navigateToMiniProgram.html) 和 [navigator](https://developers.weixin.qq.com/miniprogram/dev/component/navigator.html?search-key=navigator)
+# 小程序 appid 大全
+
+
+使用场景：
+- 小程序互跳： [wx.navigateToMiniProgram](https://developers.weixin.qq.com/miniprogram/dev/api/wx.navigateToMiniProgram.html) 和 [navigator](https://developers.weixin.qq.com/miniprogram/dev/component/navigator.html?search-key=navigator)
+- 公众号绑定小程序
+- 公众号内插入小程序卡片
+- 公众号菜单栏插入小程序
+
 
 ## 微博
 
@@ -52,16 +60,19 @@ pages/pgcvideo/pgcvideo?epid=259674
 - 微信指数: wxc026e7662ec26a3a
 - 知乎热榜：wxeb39b10e39bf6b54
 - 享物说：wxa344448166586158
+- 微店+：wx4b74228baa15489a
 - it 之家：wxc9091fcc9a6e550c
 - 群空间助手：wx2a6ae614c532dbed
 - 即刻 App: wx94ba6ef5dabfd427
+- 色卡生成器 取色器：wxd0478c2a807e23c9
+- 正能量格言：wx757ceb5b6125ccbb
 - 拼多多：wx32540bd863b27570
 - 小年糕：wxd7911e4c177690e4
 - 猫眼电影：wx87730701f3d95cc4
 - 豆瓣评分：wx2f9b06c1de1ccfca
 - 时间规划器：wx6420a173c6078912
-- 色卡生成器 取色器：wxd0478c2a807e23c9
-- 正能量格言：wx757ceb5b6125ccbb
+- 帮我选 随机选择器：wxf60455ecdd0b4518
+
 
 ## 其它小游戏 appid
 
