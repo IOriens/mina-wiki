@@ -15,7 +15,8 @@ module.exports = {
     repoLabel: '源码',
     docsDir: 'docs',
     editLinks: true,
-    editLinkText: '在 GitHub 上编辑此页',
+    editLinkText: '内容订正',
+    docsBranch: 'dev',
     nav: [
       {
         text: '指南',
