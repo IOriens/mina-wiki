@@ -67,7 +67,6 @@ pages/pgcvideo/pgcvideo?epid=259674
 - 色卡生成器 取色器：wxd0478c2a807e23c9
 - 正能量格言：wx757ceb5b6125ccbb
 - 拼多多：wx32540bd863b27570
-- 小年糕：wxd7911e4c177690e4
 - 猫眼电影：wx87730701f3d95cc4
 - 豆瓣评分：wx2f9b06c1de1ccfca
 - 时间规划器：wx6420a173c6078912
