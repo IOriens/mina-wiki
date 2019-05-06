@@ -44,6 +44,7 @@
 - [Labrador ★1.6k](https://github.com/maichong/labrador) - 支持 ES6/7 的微信小程序组件化开发框架
 - [wept ★1.8k](https://github.com/chemzqm/wept) - 微信小程序实时运行环境
 - [wafer ★1.6k](https://github.com/tencentyun/wafer) - 快速构建具备弹性能力的微信小程序
+- [licia ★900+](https://github.com/liriliri/licia) - 支持小程序的 JS 工具库
 - [wechat_web_devtools ★600+](https://github.com/cytle/wechat_web_devtools) -  Linux 下微信开发者工具
 - [minapp ★400+](https://github.com/qiu8310/minapp) - TypeScript 版小程序开发框架（兼容原生小程序代码）
 - [tina ★300+](https://github.com/tinajs/tina) - 轻巧的渐进式微信小程序框架
@@ -225,5 +226,6 @@
 - [yuzexia/iw3cplus](https://github.com/yuzexia/iw3cplus) - 前端社区[www.w3cplus.com](https://www.w3cplus.com)的微信小程序 
 - [RAOE/show-videos](https://github.com/RAOE/show-videos) - 秀视频（微信小程序短视频社交软件，视频上传，音视频合成，评论，点赞，转发，分享等） 
 - [NewFuture/miniprogram-template](https://github.com/NewFuture/miniprogram-template) - 原生API纯TypeScript开发小程序(VSCode as IDE)与完整开发流程
+- [ZhuPeng/mp-githubtrending](https://github.com/ZhuPeng/mp-githubtrending) - 以 Feed 流形式查看 GitHub Trending 仓库集合的工具
 
 [↑ 返回目录 ↑](#目录)
