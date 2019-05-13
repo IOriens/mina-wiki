@@ -4,12 +4,18 @@ meta:
   - name: description
     content: 小程序服务提供商搜集，帮助您快速上线自己的小程序。
   - name: keywords
-    content: 小程序,服务,客服,开店,微店,小店,引导关注,有赞
+    content: 小程序,服务,客服,开店,微店,小店,引导关注,有赞,微信
 ---
 
 # 小程序服务提供商
 
 ## 客服系统
+
+### [客服小助手](https://developers.weixin.qq.com/miniprogram/introduction/custom.html#%E7%BD%91%E9%A1%B5%E7%89%88%E5%AE%A2%E6%9C%8D%E5%B7%A5%E5%85%B7%E4%B8%8E%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%AE%A2%E6%9C%8D%E5%B7%A5%E5%85%B7)
+
+> 独立开发者的话，推荐用这个
+
+微信官方提供的客服助手，可在小程序或 Web 页面上回复用户信息。当用户来信时，绑定的管理员会在微信上接收到消息推送。
 
 ### [小客服](https://xiaokefu.com.cn?ed=330)
 
