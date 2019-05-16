@@ -7,6 +7,18 @@ meta:
     content: 小程序,SEO,指南,搜索,流量,入口,教程,评分,排名,性能,搜不到,搜不出来
 ---
 
+# 微信小程序SEO优化指南
+
+## 特别提醒！！！
+
+小程序简介、小程序名称中包含恶意或风险信息关键词（如涉嫌混淆官方产品名称、色情低俗、医疗内容等）时，会导致小程序被禁止搜索
+
+相关问答：
+- [小程序上线几天了搜不到](https://developers.weixin.qq.com/community/develop/doc/0004cc65f845e81637882f0e851800?highLine=%25E6%2590%259C%25E4%25B8%258D%25E5%2588%25B0)
+- [小程序&公众号名称涉及医疗内容的解疑和指引](https://developers.weixin.qq.com/community/develop/doc/000680db1803980789974463d5b808?highLine=%25E7%25A6%2581%25E6%25AD%25A2%25E6%2590%259C%25E7%25B4%25A2)
+- [小程序审核：名称规则调整及优化建议](https://developers.weixin.qq.com/community/develop/doc/0006e8a6e28a38c6ef88db7f051401?highLine=%25E7%25A6%2581%25E6%25AD%25A2%25E6%2590%259C%25E7%25B4%25A2)
+- [请教各位大神，搜索被禁怎么找到问题并改正](https://developers.weixin.qq.com/community/develop/doc/00048ac0ce4138a4ceb7ef7e251000?highLine=%25E7%25A6%2581%25E6%2590%259C)
+
 ## 小程序流量入口
 
 现阶段，小程序主要有三大流量入口：
