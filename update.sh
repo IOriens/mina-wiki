@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 git checkout dev
-"$(which node)" scripts/formatApi.js
+# "$(which node)" scripts/formatApi.js
 "$(which node)" scripts/formatAwesomeWechatApp.js
 
 # if docs updated
