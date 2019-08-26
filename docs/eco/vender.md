@@ -11,7 +11,7 @@ meta:
 
 ## 客服系统
 
-### [客服小助手](https://developers.weixin.qq.com/miniprogram/introduction/custom.html#%E7%BD%91%E9%A1%B5%E7%89%88%E5%AE%A2%E6%9C%8D%E5%B7%A5%E5%85%B7%E4%B8%8E%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%AE%A2%E6%9C%8D%E5%B7%A5%E5%85%B7)
+### [微信客服小助手](https://developers.weixin.qq.com/miniprogram/introduction/custom.html#%E7%BD%91%E9%A1%B5%E7%89%88%E5%AE%A2%E6%9C%8D%E5%B7%A5%E5%85%B7%E4%B8%8E%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%AE%A2%E6%9C%8D%E5%B7%A5%E5%85%B7)
 
 > 独立开发者的话，推荐用这个
 
@@ -22,6 +22,36 @@ meta:
 首款支持手机版的小程序多客服系统，自动回复引导关注公众号的小程序客服，自动回复图文消息，小程序内引导关注公众号，快速让小程序关联公众号，无需开发就可免费设置，引导用户关注公众号，可自定义客服菜单，根据用户问题进行回答，永久在线，用户留言记录，数据统计，免费使用。
 
  <img src="https://xiaokefu.com.cn//static/home/img/index/20180906/fun_01.png" width="300">
+
+
+## 云服务
+
+使用以下几种云服务，您可以绕过购买域名、备案等繁琐流程。
+
+
+### [微信云开发](https://developers.weixin.qq.com/minigame/dev/wxcloud/basis/getting-started.html)
+
+> 简单易用，新手推荐用这个，目前只支持微信小程序
+
+开发者可以使用云开发开发微信小程序、小游戏，无需搭建服务器，即可使用云端能力。
+
+云开发为开发者提供完整的原生云端支持和微信服务支持，弱化后端和运维概念，无需搭建服务器，使用平台提供的 API 进行核心业务开发，即可实现快速上线和迭代，同时这一能力，同开发者已经使用的云服务相互兼容，并不互斥。
+
+
+### [知晓云](https://cloud.minapp.com/?invitation=nhzzop)
+
+> 优点是同时支持 QQ、微信、支付宝小程序，配合 TaroJS 可以实现一套前后端代码多平台使用
+
+知晓云是个好用、顺手的小程序开发工具。它免去了小程序开发中服务器搭建、域名备案、数据接口实现等繁琐流程。让您专注于业务逻辑的实现，使用知晓云开发小程序，门槛更低，效率更高。
+
+
+### [新浪云服务](https://www.sinacloud.com/public/login/inviter/gaimrn-mddmzeKWrhKW3rIF4ebB9rn2uf4y-dg.html)
+
+> 优点是稳定、支持的语言多：PHP\Python\Java\Node.js\Go 等
+
+新浪云应用（Sina App Engine简称SAE）是国内最具影响力的，
+分布式Web应用/业务开发托管、运行平台之一。SAE是真正意义上具有高可靠、
+高扩展、免运维的云计算服务。
 
 ## 店铺生成
 
