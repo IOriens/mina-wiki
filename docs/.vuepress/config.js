@@ -25,7 +25,8 @@ module.exports = {
           // { text: '小游戏 API', link: '/doc/game' },
           { text: 'SEO 指南', link: '/doc/seo' },
 
-          { text: '过审指南', link: '/doc/review' }
+          { text: '过审指南(微信)', link: '/doc/review' },
+          { text: '过审指南(QQ)', link: '/doc/review-qq' }
         ]
       },
       {
