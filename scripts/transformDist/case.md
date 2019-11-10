@@ -39,6 +39,7 @@
 - [WePY ★18k+](https://github.com/Tencent/wepy) -  支持组件化的小程序开发框架
 - [mpvue ★17k+](https://github.com/Meituan-Dianping/mpvue) - 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系
 - [Taro ★19k+](https://github.com/NervJS/taro) - 使用 React 的方式开发小程序的框架，同时支持生成多端应用
+- [uni-app ★13k+](https://github.com/dcloudio/uni-app) - 使用 Vue 语法开发小程序、H5、App的统一框架
 - [chameleon ★5k+](https://github.com/didi/chameleon) - 一套代码运行多端，一端所见即多端所见
 - [megalo ★1.3k](https://github.com/kaola-fed/megalo) - 基于 Vue 的小程序开发框架
 - [MPX ★1k+](https://github.com/didi/mpx) - 增强型小程序框架，深度性能优化，支持跨小程序平台开发，完全兼容原生小程序组件
@@ -46,7 +47,9 @@
 - [wept ★2.1k](https://github.com/chemzqm/wept) - 微信小程序实时运行环境
 - [wafer ★2k](https://github.com/tencentyun/wafer) - 快速构建具备弹性能力的微信小程序
 - [licia ★1.1k](https://github.com/liriliri/licia) - 支持小程序的 JS 工具库
+- [Remax ★1k+](https://github.com/remaxjs/remax) -  使用真正的 React 构建小程序
 - [wechat_web_devtools ★600+](https://github.com/cytle/wechat_web_devtools) -  Linux 下微信开发者工具
+- [kbone ★600+](https://github.com/wechat-miniprogram/kbone) - Web 与小程序同构解决方案
 - [minapp ★400+](https://github.com/qiu8310/minapp) - TypeScript 版小程序开发框架（兼容原生小程序代码）
 - [tina ★300+](https://github.com/tinajs/tina) - 轻巧的渐进式微信小程序框架
 - [Okam ★200+](https://github.com/ecomfe/okam) - 使用类 Vue 方式开发小程序的渐进增强框架，支持生成微信/百度等主流平台的小程序
@@ -71,6 +74,7 @@
 - [miniprogram-build](https://github.com/NewFuture/miniprogram-build) - 小程序命令行编译工具(支持typescript,原生npm,资源文件压缩...)
 - [wcc.js](https://github.com/caijw/wcc.js) - wcc.js 是wxml文件和wxs文件编译器的nodejs实现
 - [wcsc.js](https://github.com/caijw/wcsc.js) - wcsc.js 是wxss文件编译器的nodejs实现
+- [weapp-gulp](https://github.com/sunnie1992/weapp-gulp) - Gulp高效构建微信小程序，让开发变得更简单
 
 [↑ 返回目录 ↑](#目录)
 
@@ -143,6 +147,7 @@
 - [miniprogram-network](https://github.com/NewFuture/miniprogram-network) - Redefine the Network API of MiniProgram(小程序网络请求库)
 - [we-validator](https://github.com/ChanceYu/we-validator) - 简单灵活的表单验证插件，支持小程序、浏览器以及Nodejs端使用。
 - [wx-pulltorefresh-view](https://github.com/zhongxuqi/wx-pulltorefresh-view) - 简单灵活的下拉上拉刷新组件，支持微信小程序
+- [sol-weapp ★100+](https://github.com/sunnie1992/sol-weapp/) -微信小程序营销组件:红包雨、大转盘等营销组件
 
 [↑ 返回目录 ↑](#目录)
 
@@ -234,5 +239,5 @@
 - [NewFuture/miniprogram-template](https://github.com/NewFuture/miniprogram-template) - 原生API纯TypeScript开发小程序(VSCode as IDE)与完整开发流程
 - [ZhuPeng/mp-githubtrending](https://github.com/ZhuPeng/mp-githubtrending) - 以 Feed 流形式查看 GitHub Trending 仓库集合的工具
 - [yociduo/scrum-planning-poker](https://github.com/yociduo/scrum-planning-poker) - Scrum敏捷估算,基于wepy构建
-
+- [lsqy/taro-music](https://github.com/lsqy/taro-music) - 🎉基于taro + taro-ui + redux + typescript 开发的网易云音乐小程序
 [↑ 返回目录 ↑](#目录)

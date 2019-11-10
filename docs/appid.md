@@ -32,6 +32,16 @@ pages/profile/profile?nickname=IOriens&amp;objectUid=5040331056
 - `nickname`: 必选 - 用户昵称，博主主页打开控制台执行 `encodeURIComponent($CONFIG.onick)` 获取，注意必须 encode
 - `objectUid`: 非必选 - 用户 id, 博主主页打开控制台执行 `$CONFIG.oid` 获取
 
+### 微博详情
+
+```
+pages/index/index?blog_id=4381319083256416
+```
+
+参数:
+
+- `mid`: 必选 - 微博博文 id
+
 ### 主页
 
 ```
@@ -64,13 +74,9 @@ pages/pgcvideo/pgcvideo?epid=259674
 - it 之家：wxc9091fcc9a6e550c
 - 群空间助手：wx2a6ae614c532dbed
 - 即刻 App: wx94ba6ef5dabfd427
-- 色卡生成器 取色器：wxd0478c2a807e23c9
-- 正能量格言：wx757ceb5b6125ccbb
 - 拼多多：wx32540bd863b27570
 - 猫眼电影：wx87730701f3d95cc4
 - 豆瓣评分：wx2f9b06c1de1ccfca
-- 时间规划器：wx6420a173c6078912
-- 帮我选 随机选择器：wxf60455ecdd0b4518
 
 
 ## 其它小游戏 appid
