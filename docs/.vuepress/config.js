@@ -12,7 +12,7 @@ module.exports = {
   },
   themeConfig: {
     repo: 'IOriens/mina-wiki',
-    repoLabel: '源码',
+    repoLabel: '参与维护',
     docsDir: 'docs',
     editLinks: true,
     editLinkText: '内容订正',

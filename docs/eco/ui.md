@@ -80,11 +80,12 @@ Wux Weapp 是一套组件化、可复用、易扩展的微信小程序 UI 组件
 - 60+ 丰富的组件，能够满足移动端开发的基本需求
 
 
-<img src="https://github.com/wux-weapp/wux-weapp/blob/master/screenshots/screenshorts-01.png?raw=true" >
+
 
 
 <div>
   <!-- <img src="https://img.yzcdn.cn/vant-weapp/index-201808121630.png" width=300> -->
+  <img src="https://github.com/wux-weapp/wux-weapp/blob/master/screenshots/screenshorts-01.png?raw=true" width=300>
   <img src="https://github.com/wux-weapp/wux-weapp/blob/master/screenshots/qrcode.jpg?raw=true" width=200>
 </div>
 

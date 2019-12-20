@@ -13,25 +13,25 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.46",
-    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.44",
-    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.46",
-    "@vuepress/plugin-pwa": "^1.0.0-alpha.44",
-    "cross-env": "^5.2.0",
+    "@vuepress/plugin-back-to-top": "^1.2.0",
+    "@vuepress/plugin-google-analytics": "^1.2.0",
+    "@vuepress/plugin-medium-zoom": "^1.2.0",
+    "@vuepress/plugin-pwa": "^1.2.0",
+    "cross-env": "^6.0.3",
     "moment": "^2.24.0",
-    "vuepress": "^1.0.0-alpha.44",
-    "vuepress-plugin-autometa": "^0.1.10",
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-autometa": "^0.1.13",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-canonical": "^1.0.0",
     "vuepress-plugin-qihu-autopush": "^1.0.2",
-    "vuepress-plugin-sitemap": "^2.1.2",
-    "xml2js": "^0.4.19"
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "xml2js": "^0.4.23"
   },
   "dependencies": {
     "autotrack": "^2.4.1",
     "cheerio": "^1.0.0-rc.3",
-    "htmlparser2": "^3.10.1",
-    "puppeteer": "^1.14.0",
-    "request-promise": "^4.2.4"
+    "htmlparser2": "^4.0.0",
+    "puppeteer": "^2.0.0",
+    "request-promise": "^4.2.5"
   }
 }
