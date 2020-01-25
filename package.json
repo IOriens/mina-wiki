@@ -1,13 +1,14 @@
 {
-  "name": "mina.wiki",
+  "name": "mina.junjie.dev",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
+    "build": "cross-env SITEHOST='https://mina.wiki' vuepress build docs",
     "build:coding": "cross-env SITEHOST='https://cn.mina.wiki' vuepress build docs",
-    "deploy": "bash deploy.sh && bash deploy.coding.sh"
+    "build:coding:junjie": "cross-env SITEHOST='https://mina.junjie.dev' vuepress build docs",
+    "deploy": "bash deploy.mina.wiki.sh && bash deploy.cn.mina.wiki.sh && bash deploy.mina.junjie.dev.sh"
   },
   "keywords": [],
   "author": "",

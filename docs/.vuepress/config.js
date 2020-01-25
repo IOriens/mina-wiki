@@ -6,7 +6,7 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'Mina.wiki - 小程序百科',
+      title: '小程序百科',
       description: '助力小程序开发者变现，提高开发生产效率'
     }
   },
@@ -46,7 +46,7 @@ module.exports = {
     [
       'sitemap',
       {
-        hostname: process.env.SITEHOST || 'https://mina.wiki'
+        hostname: process.env.SITEHOST || 'https://mina.junjie.dev'
       }
     ],
     [
@@ -81,13 +81,13 @@ module.exports = {
     //       name: 'Junjie.xyz',
     //       twitter: 'I_Oriens'
     //     },
-    //     canonical_base: 'https://mina.wiki'
+    //     canonical_base: 'https://mina.junjie.dev'
     //   }
     // ],
     [
       'vuepress-plugin-canonical',
       {
-        baseURL: 'https://mina.wiki',
+        baseURL: 'https://mina.junjie.dev',
         stripExtension: false
       }
     ],

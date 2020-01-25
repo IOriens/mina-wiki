@@ -1,5 +1,6 @@
-# Mina.wiki
-> 访问地址：[mina.wiki](https://mina.wiki) 或 [cn.mina.wiki](https://cn.mina.wiki)
+# 小程序百科
+
+> 访问地址：[小程序百科](https://mina.junjie.dev)
 
 小程序百科
 

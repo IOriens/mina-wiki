@@ -2,7 +2,7 @@ console.log(`[${new Date().toLocaleString()}] -- 开始推送`);
 const request = require('request');
 const parseString = require('xml2js').parseString;
 
-const URL = `mina.wiki`; // 提交到百度的网址
+const URL = `mina.junjie.dev`; // 提交到百度的网址
 const TOKEN = process.env.BAIDU_PUSH_TOKEN; // 百度站长主动推送token
 
 fetchUrlDatas().then(urls => push(urls));

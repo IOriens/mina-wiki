@@ -7,14 +7,15 @@ function addUtmSource () {
         item =>
           item.href &&
           !item.href.includes('mina.wiki') &&
+          !item.href.includes('mina.junjie.dev') &&
           !item.href.includes('mina-wiki') &&
           !item.href.includes('utm_source')
       )
       .map(item => {
         if (item.href.includes('?')) {
-          item.href = item.href + `&utm_source=mina.wiki&utm_medium=referral`
+          item.href = item.href + `&utm_source=mina.junjie.dev&utm_medium=referral`
         } else {
-          item.href = item.href + `?utm_source=mina.wiki&utm_medium=referral`
+          item.href = item.href + `?utm_source=mina.junjie.dev&utm_medium=referral`
         }
       })
   } catch (e) {
